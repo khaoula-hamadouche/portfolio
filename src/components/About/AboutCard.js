@@ -8,37 +8,38 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi everyone! I’m <span className="purple">Soumyajit Behera</span>{" "}
-            from <span className="purple">Bhubaneswar, India</span>.
+            Salut tout le monde ! Je suis <span className="purple">Khaoula Hamadouche</span>{" "}
+            d’ <span className="purple">Algérie</span>.
             <br />
-            I’m currently working as a{" "}
-            <span className="purple">Software Developer</span> at{" "}
-            <span className="purple">Juspay</span>.
-            <br />I hold an Integrated M.Sc. (IMSc) in{" "}
-            <span className="purple">Mathematics and Computing</span> from{" "}
-            <span className="purple">BIT Mesra</span>.
+            Je travaille actuellement en tant qu’{" "}
+            <span className="purple">ingénieure en études et développement.</span> chez {" "}
+            <span className="purple">SARPI</span>.
+            <br />J’ai étudié à l’Université Alger 1{" "}, où j’ai obtenu un diplôme en <span className="purple">Ingénierie des Systèmes Informatiques Intelligents</span>.
             <br />
             <br />
-            Outside of coding, I love engaging in activities that keep me
-            creative and inspired:
+            En dehors du développement, j’aime m’engager dans des activités qui stimulent ma créativité et m’inspirent :
           </p>
 
+
+
+
+,  .
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games 🎮
+              <ImPointRight /> Développer des projets personnels 💻
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs ✍️
+              <ImPointRight /> Explorer de nouvelles technologies et frameworks 🚀
             </li>
             <li className="about-activity">
-              <ImPointRight /> Traveling and Exploring New Places 🌍
+              <ImPointRight /> Lire et partager sur des sujets tech ✍️
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Voyager et découvrir de nouveaux horizons 🌍
             </li>
           </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
-          </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+        
         </blockquote>
       </Card.Body>
     </Card>

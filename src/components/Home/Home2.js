@@ -10,48 +10,35 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+             <span className="purple"> PRÉSENTATION PERSONNELLE </span><br /> QUI SUIS-JE
             </h1>
             <p className="home-about-body">
-              I’m a Software Engineer who loves transforming ideas into
-              reliable, scalable products. Over time, I’ve explored several
-              technologies and found my passion in building high-performance
-              systems and intuitive user experiences.
+              Je suis ingénieure en études et développement, spécialisée dans la conception et la réalisation d’applications web modernes, performantes et évolutives. J’interviens aussi bien sur le backend que sur le frontend, 
               <br />
               <br />
-              I’m proficient in
+               en utilisant des technologies telles que
               <i>
                 <b className="purple">
                   {" "}
-                  JavaScript, C++, Rust, Node.js, and Java{" "}
+                  HTML, CSS, JavaScript, Angular, React, ainsi que Spring Boot, Laravel, PHP, Java, Python et Django.{" "}
                 </b>
               </i>
-              — and I enjoy working across both backend and frontend stacks.
               <br />
               <br />
-              My key areas of interest include developing
+               J’ai également un fort intérêt pour les solutions basées sur 
               <i>
                 <b className="purple">
                   {" "}
-                  Web Applications, Blockchain Solutions,{" "}
+                  l’intelligence artificielle{" "}
                 </b>
               </i>
-              and exploring new ways to bridge on-chain and off-chain systems.
-              <br />
-              <br />
-              Whenever possible, I love building projects with
-              <b className="purple"> Node.js </b> and modern frameworks like{" "}
-              <i>
-                <b className="purple">React.js</b> and{" "}
-                <b className="purple">Next.js</b>.
-              </i>
+              , notamment pour l’automatisation des processus, l’analyse des données et l’aide à la décision. Rigoureuse et passionnée par l’innovation, je m’attache à développer des applications fiables, sécurisées et orientées vers une excellente expérience utilisateur.
+              
+            
+             
             </p>
           </Col>
-          <Col md={4} className="myAvtar">
-            <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
-            </Tilt>
-          </Col>
+          
         </Row>
       </Container>
     </Container>
