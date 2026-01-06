@@ -17,7 +17,7 @@ function Footer() {
           <h3>Conçu et développé par Khaoula Hamadouche</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} KH</h3>
+          <h3>Copyright © {year} </h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">

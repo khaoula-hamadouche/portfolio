@@ -13,14 +13,17 @@ function Home2() {
              <span className="purple"> PRÉSENTATION PERSONNELLE </span><br /> QUI SUIS-JE
             </h1>
             <p className="home-about-body">
-              Je suis ingénieure en études et développement, spécialisée dans la conception et la réalisation d’applications web modernes, performantes et évolutives. J’interviens aussi bien sur le backend que sur le frontend, 
+              Je suis ingénieure en études et développement, 
+              spécialisée dans la conception et la réalisation d’applications web modernes, performantes et évolutives. 
+              <br />
+              J’interviens aussi bien sur le backend que sur le frontend
               <br />
               <br />
                en utilisant des technologies telles que
               <i>
                 <b className="purple">
                   {" "}
-                  HTML, CSS, JavaScript, Angular, React, ainsi que Spring Boot, Laravel, PHP, Java, Python et Django.{" "}
+                  HTML, CSS, JavaScript, Angular, React, ainsi que Spring Boot, Laravel, PHP, Java, Python et Django .....{" "}
                 </b>
               </i>
               <br />
