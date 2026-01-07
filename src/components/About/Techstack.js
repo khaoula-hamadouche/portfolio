@@ -26,6 +26,8 @@ import Drupal from "../../Assets/TechIcons/drupal.svg";
 import Html from "../../Assets/TechIcons/html.svg";
 import Css from "../../Assets/TechIcons/css.svg";
 import Scss from "../../Assets/TechIcons/sass.svg";
+import xampp from "../../Assets/TechIcons/xampp.svg";
+import wordpress from "../../Assets/TechIcons/wordpress.svg";
 
 
 function Techstack() {
@@ -130,6 +132,14 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <img src={Tailwind} alt="tailwind" />
         <div className="tech-icons-text">Tailwind CSS</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <img src={xampp} alt="xampp" height={20} width={20}/>
+        <div className="tech-icons-text">XAMPP</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <img src={wordpress} alt="wordpress" height={20} width={20}/>
+        <div className="tech-icons-text">WordPress</div>
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">

@@ -25,6 +25,7 @@ import Drupal from "../../Assets/TechIcons/drupal.svg";
 import Html from "../../Assets/TechIcons/html.svg";
 import Css from "../../Assets/TechIcons/css.svg";
 import Scss from "../../Assets/TechIcons/sass.svg";
+import Xamp from "../../Assets/TechIcons/xampp.svg";
 
 
 
@@ -75,6 +76,7 @@ function Projects() {
                 { name: "Java", icon: Java },
                 { name: "Material UI", icon: MUI },
                 { name: "Scss", icon: Scss },
+                { name: "Css", icon: Css },
               ]}
             />
           </Col>
@@ -130,6 +132,7 @@ function Projects() {
                 { name: "MySQL", icon: SQL },
                 { name: "Css", icon: Css },
                 { name: "Html", icon: Html },
+                { name: "Xamp", icon: Xamp },
               ]}
             />
           </Col>
@@ -139,11 +142,13 @@ function Projects() {
               imgPath={emotion}
               isBlog={false}
               title="Portail Sarpi"
-              description="Est une plateforme centralisée qui permet d'accéder aux informations de chaque département de la société SARPI, facilitant la consultation, le suivi et la gestion interne des données."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              description="Est une plateforme centralisée qui permet d'accéder aux informations de chaque département de la société SARPI, 
+              facilitant la consultation, le suivi et la gestion interne des données."
+              ghLink="https://github.com/khaoula-hamadouche"
               techStack={[
                 { name: "Drupal", icon: Drupal },
                 { name: "Css", icon: Css },
+                
               ]}
             />
           </Col>

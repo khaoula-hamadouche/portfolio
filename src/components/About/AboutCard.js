@@ -19,11 +19,6 @@ function AboutCard() {
             <br />
             En dehors du développement, j’aime m’engager dans des activités qui stimulent ma créativité et m’inspirent :
           </p>
-
-
-
-
-,  .
           <ul>
             <li className="about-activity">
               <ImPointRight /> Développer des projets personnels 💻
