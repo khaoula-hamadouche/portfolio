@@ -26,6 +26,7 @@ import Html from "../../Assets/TechIcons/html.svg";
 import Css from "../../Assets/TechIcons/css.svg";
 import Scss from "../../Assets/TechIcons/sass.svg";
 import Xamp from "../../Assets/TechIcons/xampp.svg";
+import nginx from "../../Assets/TechIcons/nginx.svg";
 
 
 
@@ -57,6 +58,7 @@ function Projects() {
                 { name: "Material UI", icon: MUI },
                 { name: "Laravel", icon: Laravel },
                 { name: "Css", icon: Css },
+                { name: "Nginx", icon: nginx },
 
               ]}
             />
@@ -77,6 +79,8 @@ function Projects() {
                 { name: "Material UI", icon: MUI },
                 { name: "Scss", icon: Scss },
                 { name: "Css", icon: Css },
+                { name: "Nginx", icon: nginx },
+
               ]}
             />
           </Col>
@@ -96,6 +100,7 @@ function Projects() {
                 { name: "Material UI", icon: MUI },
                 { name: "Laravel", icon: Laravel },
                 { name: "Css", icon: Css },
+                { name: "Nginx", icon: nginx },
                 
               ]}
             />
@@ -116,6 +121,7 @@ function Projects() {
                 { name: "Material UI", icon: MUI },
                 { name: "Laravel", icon: Laravel },
                 { name: "Css", icon: Css },
+                { name: "Nginx", icon: nginx },
               ]}
             />
           </Col>
@@ -148,6 +154,7 @@ function Projects() {
               techStack={[
                 { name: "Drupal", icon: Drupal },
                 { name: "Css", icon: Css },
+                { name: "Nginx", icon: nginx },
                 
               ]}
             />

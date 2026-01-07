@@ -28,6 +28,7 @@ import Css from "../../Assets/TechIcons/css.svg";
 import Scss from "../../Assets/TechIcons/sass.svg";
 import xampp from "../../Assets/TechIcons/xampp.svg";
 import wordpress from "../../Assets/TechIcons/wordpress.svg";
+import nginx from "../../Assets/TechIcons/nginx.svg";
 
 
 function Techstack() {
@@ -146,7 +147,10 @@ function Techstack() {
         <img src={MUI} alt="mui" />
         <div className="tech-icons-text">Material UI</div>
       </Col>
-
+      <Col xs={4} md={2} className="tech-icons">
+        <img src={nginx} alt="nginx" height={20} width={20} />
+        <div className="tech-icons-text">Nginx</div>
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <img src={Postman} alt="Postman" />
         <div className="tech-icons-text">Postman</div>

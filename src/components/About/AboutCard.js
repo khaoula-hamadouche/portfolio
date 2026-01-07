@@ -8,33 +8,17 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Salut tout le monde ! Je suis <span className="purple">Khaoula Hamadouche</span>{" "}
-            d’ <span className="purple">Algérie</span>.
+            Je m’appelle <strong>Khaoula Hamadouche</strong>, ingénieure en études et développement, basée en  <strong>Algérie</strong>.
+            <br /> <br />
+            J’exerce actuellement chez <strong>SARPI</strong>, où je participe à la conception, au développement et à l’amélioration de solutions informatiques répondant aux besoins opérationnels de l’entreprise.
+            <br /> <br />
+            <br />Je suis diplômée de l’Université d’Alger 1, titulaire d’un Master 2 en Ingénierie des Systèmes Informatiques Intelligents, avec une spécialisation en intelligence artificielle, Cette formation m’a permis d’acquérir de solides compétences en développement applicatif,
+            en analyse des systèmes, ainsi qu’en intégration de techniques d’intelligence artificielle dans des solutions informatiques concrètes. 
             <br />
-            Je travaille actuellement en tant qu’{" "}
-            <span className="purple">ingénieure en études et développement.</span> chez {" "}
-            <span className="purple">SARPI</span>.
-            <br />J’ai étudié à l’Université Alger 1{" "}, où j’ai obtenu un diplôme en <span className="purple">Ingénierie des Systèmes Informatiques Intelligents</span>.
             <br />
-            <br />
-            En dehors du développement, j’aime m’engager dans des activités qui stimulent ma créativité et m’inspirent :
           </p>
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Développer des projets personnels 💻
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Explorer de nouvelles technologies et frameworks 🚀
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Lire et partager sur des sujets tech ✍️
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Voyager et découvrir de nouveaux horizons 🌍
-            </li>
-          </ul>
-
         
+
         </blockquote>
       </Card.Body>
     </Card>

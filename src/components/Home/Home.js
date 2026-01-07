@@ -29,34 +29,18 @@ function Home() {
 
               <h1 className="heading-name">
                 Je suis
-                <strong className="main-name"> KHAOULA HAMADOUCHE </strong>
+                <strong > KHAOULA HAMADOUCHE </strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
               </div>
             </Col>
-
-            <Col md={5} style={{ paddingBottom: 20 }}>
-              <img
-                src={homeLogo}
-                alt="home pic"
-                className="img-fluid"
-                style={{ maxHeight: "450px" }}
-              />
-            </Col>
-          </Row>
-        </Container>
-      </Container>
-      <Home2 />
-
-
-      <Container>
-        <Row style={{ paddingTop: "50px", paddingBottom: "80px" }}>
-          <Col md={12} className="home-about-social">
+            
+            <Col md={12} className="home-about-social">
             <h1>Retrouvez-moi sur</h1>
             <p>
-              N’hésitez pas à me <span className="purple">contacter </span>
+              N’hésitez pas à me <span >contacter </span>
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
@@ -101,8 +85,14 @@ function Home() {
               </li>
             </ul>
           </Col>
-        </Row>
+
+          </Row>
+        </Container>
       </Container>
+      <Home2 />
+
+
+      
     </section>
   );
 }

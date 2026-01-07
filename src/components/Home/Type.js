@@ -7,9 +7,8 @@ function Type() {
       options={{
         strings: [
           "Ingénieure d’études et développement",
-          "Freelance",
-          "Développeuse MERN Stack",
-          "Contributrice Open Source",
+          "Développeuse fullstack",
+          "Intelligence artificielle",
         ],
         autoStart: true,
         loop: true,
