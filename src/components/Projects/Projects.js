@@ -9,6 +9,26 @@ import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
+// Import des icônes de technologies
+import ReactIcon from "../../Assets/TechIcons/React.svg";
+import Java from "../../Assets/TechIcons/Java.svg";
+import angular from "../../Assets/TechIcons/angular.svg";
+import springboot from "../../Assets/TechIcons/spring-boot-icon.svg";
+import SQL from "../../Assets/TechIcons/SQL.svg";
+import Tailwind from "../../Assets/TechIcons/Tailwind.svg";
+import Typescript from "../../Assets/TechIcons/Typescript.svg";
+import MUI from "../../Assets/TechIcons/MUI.svg";
+import Javascript from "../../Assets/TechIcons/Javascript.svg";
+import Laravel from "../../Assets/TechIcons/laravel.svg";
+import Php from "../../Assets/TechIcons/php.svg";
+import Drupal from "../../Assets/TechIcons/drupal.svg";
+import Html from "../../Assets/TechIcons/html.svg";
+import Css from "../../Assets/TechIcons/css.svg";
+import Scss from "../../Assets/TechIcons/sass.svg";
+
+
+
+
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -18,7 +38,7 @@ function Projects() {
            Mes projets <strong className="purple">récents </strong>
         </h1>
         <p style={{ color: "white" }}>
-           Voici quelques projets sur lesquels j’ai travaillé récemment
+           Voici quelques projets sur lesquels j'ai travaillé récemment
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
@@ -26,9 +46,18 @@ function Projects() {
               imgPath={chatify}
               isBlog={false}
               title="TOSYS APP"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              description="Est une plateforme web développée pour SARPI visant à moderniser la gestion des utilisateurs. Elle facilite l'administration des comptes AD/Exchange, réduit les tâches manuelles grâce à l'automatisation et assure une gestion sécurisée et traçable des opérations."
+              ghLink="https://github.com/khaoula-hamadouche/TosysApp"
+              techStack={[
+                { name: "React", icon: ReactIcon },
+                { name: "Javascript", icon: Javascript },
+                { name: "MySQL", icon: SQL },
+                { name: "Tailwind", icon: Tailwind },
+                { name: "Material UI", icon: MUI },
+                { name: "Laravel", icon: Laravel },
+                { name: "Css", icon: Css },
+
+              ]}
             />
           </Col>
 
@@ -37,9 +66,16 @@ function Projects() {
               imgPath={bitsOfCode}
               isBlog={false}
               title="CME APP"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              description="Vise à moderniser les processus de gestion des marchés via une plateforme web intelligente, en centralisant les dossiers, en automatisant les tâches récurrentes et en soutenant la prise de décision grâce à un module d'intelligence artificielle."
+              ghLink="https://github.com/khaoula-hamadouche/Cmeapp"
+              techStack={[
+                { name: "Angular", icon: angular },
+                { name: "Spring Boot", icon: springboot },
+                { name: "MySQL", icon: SQL },
+                { name: "Java", icon: Java },
+                { name: "Material UI", icon: MUI },
+                { name: "Scss", icon: Scss },
+              ]}
             />
           </Col>
 
@@ -48,9 +84,18 @@ function Projects() {
               imgPath={editor}
               isBlog={false}
               title="CND APP"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              description="Est une plateforme dédiée aux soudeurs et contrôleurs non destructifs, visant à digitaliser et centraliser le suivi des opérations de contrôle, à automatiser certaines tâches et à améliorer la traçabilité et la fiabilité des inspections."
+              ghLink="https://github.com/khaoula-hamadouche/CndApp"
+              techStack={[
+                { name: "React", icon: ReactIcon },
+                { name: "Javascript", icon: Javascript },
+                { name: "MySQL", icon: SQL },
+                { name: "Tailwind", icon: Tailwind },
+                { name: "Material UI", icon: MUI },
+                { name: "Laravel", icon: Laravel },
+                { name: "Css", icon: Css },
+                
+              ]}
             />
           </Col>
 
@@ -59,9 +104,17 @@ function Projects() {
               imgPath={leaf}
               isBlog={false}
               title="GMAT APP"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              description="Est une plateforme dédiée à la gestion du matériel et de la maintenance, visant à centraliser les équipements, planifier les opérations de maintenance, automatiser les tâches courantes et assurer un suivi fiable et traçable des interventions."
+              ghLink="https://github.com/khaoula-hamadouche/GmatApp"
+              techStack={[
+                { name: "React", icon: ReactIcon },
+                { name: "Typescript", icon: Typescript },
+                { name: "MySQL", icon: SQL },
+                { name: "Tailwind", icon: Tailwind },
+                { name: "Material UI", icon: MUI },
+                { name: "Laravel", icon: Laravel },
+                { name: "Css", icon: Css },
+              ]}
             />
           </Col>
 
@@ -70,9 +123,14 @@ function Projects() {
               imgPath={suicide}
               isBlog={false}
               title="Gestion courrier Algérie Télécom"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              description="Est une plateforme qui centralise la réception et l'envoi des courriers au sein de l'entreprise, facilite leur suivi et optimise la gestion interne de l'ensemble des envois."
+              ghLink="https://github.com/khaoula-hamadouche/gestion_courrier/tree/main/PFE"
+              techStack={[
+                { name: "Php", icon: Php },
+                { name: "MySQL", icon: SQL },
+                { name: "Css", icon: Css },
+                { name: "Html", icon: Html },
+              ]}
             />
           </Col>
 
@@ -81,10 +139,12 @@ function Projects() {
               imgPath={emotion}
               isBlog={false}
               title="Portail Sarpi"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
+              description="Est une plateforme centralisée qui permet d'accéder aux informations de chaque département de la société SARPI, facilitant la consultation, le suivi et la gestion interne des données."
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              techStack={[
+                { name: "Drupal", icon: Drupal },
+                { name: "Css", icon: Css },
+              ]}
             />
           </Col>
         </Row>

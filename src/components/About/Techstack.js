@@ -20,6 +20,12 @@ import springboot from "../../Assets/TechIcons/spring-boot-icon.svg";
 import flutter from "../../Assets/TechIcons/flutter.svg";
 import django from "../../Assets/TechIcons/django-logo-icon.svg";
 import Postman from "../../Assets/TechIcons/Postman.svg";
+import Laravel from "../../Assets/TechIcons/laravel.svg";
+import Php from "../../Assets/TechIcons/php.svg";
+import Drupal from "../../Assets/TechIcons/drupal.svg";
+import Html from "../../Assets/TechIcons/html.svg";
+import Css from "../../Assets/TechIcons/css.svg";
+import Scss from "../../Assets/TechIcons/sass.svg";
 
 
 function Techstack() {
@@ -45,6 +51,30 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <img src={ReactIcon} alt="react" />
         <div className="tech-icons-text">React.Js</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <img src={Html} alt="html" height={20} width={20}/>
+        <div className="tech-icons-text">HTML</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <img src={Css} alt="css" height={20} width={20}/>
+        <div className="tech-icons-text">CSS</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <img src={Drupal} alt="drupal" height={20} width={20}/>
+        <div className="tech-icons-text">Drupal</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <img src={Scss} alt="scss"height={20} width={40} />
+        <div className="tech-icons-text">SCSS</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <img src={Laravel} alt="laravel" height={20} width={20}/>
+        <div className="tech-icons-text">Laravel</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <img src={Php} alt="php" height={25} width={40}/>
+        <div className="tech-icons-text">PHP</div>
       </Col>
     
      
