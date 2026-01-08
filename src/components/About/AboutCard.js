@@ -8,7 +8,7 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Je m’appelle <strong>Khaoula Hamadouche</strong>, ingénieure en études et développement, basée en  <strong>Algérie</strong>.
+             Ingénieure en études et développement, basée en  <strong>Algérie</strong>.
             <br /> <br />
             J’exerce actuellement chez <strong>SARPI</strong>, où je participe à la conception, au développement et à l’amélioration de solutions informatiques répondant aux besoins opérationnels de l’entreprise.
             <br /> <br />
