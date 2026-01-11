@@ -1,0 +1,17 @@
+.custom-toggler {
+  border: none !important;
+  background: transparent !important;
+  font-size: 1.9rem;
+  color: #a855f7 !important; /* MAUVE */
+  cursor: pointer;
+}
+
+.custom-toggler:hover {
+  color: #c084fc !important; /* mauve clair */
+}
+
+.custom-toggler:focus,
+.custom-toggler:active {
+  outline: none !important;
+  box-shadow: none !important;
+}

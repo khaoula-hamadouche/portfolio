@@ -1,59 +1,63 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import logo from "../Assets/logo.png";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
-import { CgGitFork } from "react-icons/cg";
-import { ImBlog } from "react-icons/im";
+
 import {
   AiFillStar,
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
-
-import { CgFileDocument } from "react-icons/cg";
+import { CgGitFork, CgFileDocument } from "react-icons/cg";
 
 function NavBar() {
-  const [expand, updateExpanded] = useState(false);
-  const [navColour, updateNavbar] = useState(false);
+  const [expanded, setExpanded] = useState(false);
+  const [navColour, setNavColour] = useState(false);
 
-  function scrollHandler() {
-    if (window.scrollY >= 20) {
-      updateNavbar(true);
-    } else {
-      updateNavbar(false);
-    }
-  }
-
-  window.addEventListener("scroll", scrollHandler);
+  useEffect(() => {
+    const scrollHandler = () => {
+      setNavColour(window.scrollY >= 20);
+    };
+    window.addEventListener("scroll", scrollHandler);
+    return () => window.removeEventListener("scroll", scrollHandler);
+  }, []);
 
   return (
     <Navbar
-      expanded={expand}
-      fixed="top"
+      expanded={expanded}
       expand="md"
+      fixed="top"
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-       
+        {/* BUTTON HAMBURGER (MOBILE) */}
+<Navbar.Toggle
+  aria-controls="responsive-navbar-nav"
+  onClick={() => setExpanded(expanded ? false : "expanded")}
+  style={{ color: "#8e44ad", fontSize: "26px", border: "none" }}
+>
+  {expanded ? "✖" : "☰"}
+</Navbar.Toggle>
+
+
+
+
+
+
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="mx-auto" defaultActiveKey="#home">
+          <Nav className="mx-auto text-center">
             <Nav.Item>
-              <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-                <AiOutlineHome style={{ marginBottom: "2px" }} /> Accueil
+              <Nav.Link as={Link} to="/" onClick={() => setExpanded(false)}>
+                <AiOutlineHome /> Accueil
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/about"
-                onClick={() => updateExpanded(false)}
-              >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> À propos
+              <Nav.Link as={Link} to="/about" onClick={() => setExpanded(false)}>
+                <AiOutlineUser /> À propos
               </Nav.Link>
             </Nav.Item>
 
@@ -61,12 +65,9 @@ function NavBar() {
               <Nav.Link
                 as={Link}
                 to="/project"
-                onClick={() => updateExpanded(false)}
+                onClick={() => setExpanded(false)}
               >
-                <AiOutlineFundProjectionScreen
-                  style={{ marginBottom: "2px" }}
-                />{" "}
-                Projets
+                <AiOutlineFundProjectionScreen /> Projets
               </Nav.Link>
             </Nav.Item>
 
@@ -74,13 +75,11 @@ function NavBar() {
               <Nav.Link
                 as={Link}
                 to="/resume"
-                onClick={() => updateExpanded(false)}
+                onClick={() => setExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Résumé
+                <CgFileDocument /> Résumé
               </Nav.Link>
             </Nav.Item>
-
-            
 
             <Nav.Item className="fork-btn">
               <Button
@@ -88,8 +87,7 @@ function NavBar() {
                 target="_blank"
                 className="fork-btn-inner"
               >
-                <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
-                <AiFillStar style={{ fontSize: "1.1em" }} />
+                <CgGitFork /> <AiFillStar />
               </Button>
             </Nav.Item>
           </Nav>
